@@ -1,0 +1,23 @@
+{
+  "name": "platzi-mobilefirst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jannerymbf/Platzi-MobileFirst.git"
+  },
+  "author": "Jannery Briceño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jannerymbf/Platzi-MobileFirst/issues"
+  },
+  "homepage": "https://github.com/jannerymbf/Platzi-MobileFirst#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
