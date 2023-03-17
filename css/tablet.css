@@ -1,0 +1,22 @@
+/*Por buenas prácticas, tener los estilos para tablet y desktop en diferentes archivos*/
+html {
+    font-size: 66%;
+}
+
+.main-tables-container {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.plans-container--slider {
+    justify-content: center;
+}
+
