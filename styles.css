@@ -408,8 +408,20 @@ main {
   color: #757575;
 }
 
+.plans-container--slider {
+  display:  flex;
+  gap: 30px;
+  height: 316px;
+  /*Para agregar scroll horizontal*/
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  margin: 0 15px;
+}
+
 .plans-container--card {
   position: relative;
+  scroll-snap-align: center; /*Cuando mueves el scroll ayuda a ubicarnos en el centro del contenido*/
   width: 70%;
   min-width: 230px;
   max-width: 300px;
