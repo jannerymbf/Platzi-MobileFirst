@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "live-server"
+    "start": "live-server --open='./src'",
+    "deploy": "gh-pages -d -src"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/jannerymbf/Platzi-MobileFirst#readme",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "live-server": "^1.2.2"
   }
 }
